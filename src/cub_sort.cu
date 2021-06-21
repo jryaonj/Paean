@@ -1,7 +1,7 @@
 #include "util.h"
 #include "cuda_util.h"
-#include "cub.cuh"
 #include "cub_sort.cuh"
+#include <cub/cub.cuh>
 #include <thrust/scan.h>
 #include <thrust/fill.h>
 #include <thrust/replace.h>

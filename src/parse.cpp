@@ -3,7 +3,7 @@
 #include "util.h"
 #include "fmt/core.h"
 #include "htslib/sam.h"
-#include "robin_hood.h"
+#include "robin_hood/robin_hood.h"
 
 #include <set>
 #include <map>
